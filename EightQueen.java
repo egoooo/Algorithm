@@ -8,7 +8,6 @@ public class EightQueen {
         findQueen(0);
         System.out.println("八皇后问题共有："+map+"种可能");
     }
-
     public static void findQueen(int i){//寻找皇后节点
         if(i>7){//八皇后的解
             map++;
