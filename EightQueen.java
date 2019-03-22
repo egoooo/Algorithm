@@ -14,7 +14,6 @@ public class EightQueen {
             print();//打印八皇后的解
             return;
         }
-
         for(int m=0;m<8;m++){//深度回溯,递归算法
             if(check(i,m)){//检查皇后摆放是否合适
                 arry[i][m]=1;
