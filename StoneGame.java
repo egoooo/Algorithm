@@ -23,6 +23,7 @@ public class StoneGame {
     public static boolean stoneGame1(int[] piles) {
         int n = piles.length;
 
+
         // dp[i+1][j+1] = the value of the game [piles[i], ..., piles[j]].
         int[][] dp = new int[n][n];
 
