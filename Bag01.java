@@ -1,5 +1,11 @@
 package suanfa;
 
+/**
+ * 0-1背包问题：给定n种物品和一背包。
+ * 物品 i 的重量似乎 wi，其价值为 vi，背包的容量为 c。
+ * 问应该如何选择装入背包中的物品，
+ * 使得装入背包中物品的总价值最大？
+ */
 public class Bag01 {
     public static void main(String[] args) {
         int m = 10;
