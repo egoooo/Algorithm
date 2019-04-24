@@ -3,9 +3,7 @@ package suanfa;
 public class Bag01 {
     public static void main(String[] args) {
         int m = 10;
-
         int n = 3;
-
         int w[] = {3, 4, 5};
         int p[] = {4, 5, 6};
         int c[][] = backPack(m, n, w, p);
