@@ -6,6 +6,7 @@ public class Bag01 {
 
         int n = 3;
 
+
         int w[] = {3, 4, 5};
         int p[] = {4, 5, 6};
         int c[][] = backPack(m, n, w, p);
