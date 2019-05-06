@@ -39,7 +39,6 @@ public class LeetCode504 {
 
     }
 
-
     private static char[] array = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
             .toCharArray();
 
